@@ -1,0 +1,28 @@
+.card:hover{
+    transform: scale(1.07);
+ box-shadow: 0 40px 40px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+       .card {
+   transition: all 0.2s ease;
+   cursor: pointer;
+}
+       .butto{
+           size: 0%;
+           margin-top: 10%;
+           margin-left: -5px;
+           position: fixed;
+       }
+
+       @media only screen and (max-width:414px) and (min-width:376px)
+{
+ .row{
+   padding-left: 0px !important;
+   padding-right: 0px !important;
+ }
+
+ .col{
+   padding-left: 0x;
+   padding-right: 0px ;
+ }
+
+}
