@@ -1,17 +1,32 @@
+<<<<<<< Updated upstream
 
+/* navbar and dropdown hover menu styling  */
+=======
 /* navbar dropdown hover menu   */
+>>>>>>> Stashed changes
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+.nav-link:hover
+{
+   opacity: 60%;
+}
 /* card hover style */
-.card:hover{
-    transform: scale(1.07);
- box-shadow: 0 40px 40px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+.card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 40px 40px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
-       .card {
-   transition: all 0.2s ease;
-   cursor: pointer;
+.card {
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
+.butto {
+  size: 0%;
+  margin-top: 10%;
+  margin-left: -5px;
+  position: fixed;
+}
+<<<<<<< Updated upstream
        .butto{
            size: 0%;
            margin-top: 10%;
@@ -24,6 +39,10 @@
         margin-left: 97%;
         position: fixed;
        
+    }
+
+    .purtext{
+      color: rgb(255, 255, 255);
     }
     .bgimage{
      
@@ -47,81 +66,85 @@
          
          
        }
+=======
+>>>>>>> Stashed changes
 
-       .imgg{
-         transition: all 0.2s ease;
-         cursor: pointer;
-       }
-       .imgg:hover{
-         transform: scale(1.2);
-         
+.imgg {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.imgg:hover {
+  transform: scale(1.2);
+}
 
-       }
-       
-       .t_txt{
-         text-align: center;
-         font-size: larger;
-         
-       }
+.t_txt {
+  text-align: center;
+  font-size: larger;
+}
 
-       .pding{
-        
-          padding: 25px 50px 75px 100px;
-        
-       }
+.pding {
+  padding: 25px 50px 75px 100px;
+}
 
-.pfbox{
+.pfbox {
   margin-left: 10% !important ;
-  margin-right: 10%  !important;
+  margin-right: 10% !important;
   align-items: center !important;
   margin-top: 0% !important;
   padding-top: 0% !important;
-
 }
 
-.calign{
+.calign {
   align-self: center !important;
 }
 
-       @media only screen and (max-width:414px) and (min-width:359px)
-{
- .row{
-   padding-left: 0px !important;
-   padding-right: 0px !important;
- }
- 
-.teext{
-  margin-top: 15% !important;
-  margin-left: 2% !important;
-  margin-right: 1% !important;
-  align-items: center;
-  padding-left: 5%;
-  padding-right: 5%;
-}
+@media only screen and (max-width: 414px) and (min-width: 359px) {
+  .row {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 
-.mfbox{
-  margin-top: 7% !important;
-  margin-left: 3% !important;
-  margin-right: 3% !important;
-}
+  .teext {
+    margin-top: 15% !important;
+    margin-left: 2% !important;
+    margin-right: 1% !important;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
- .col{
-   padding-left: 0x;
-   padding-right: 0px ;
- }
+  .mfbox {
+    margin-top: 7% !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+  }
 
+  .col {
+    padding-left: 0x;
+    padding-right: 0px;
+  }
 
-
-.ftbox{
-  margin-left: 10%;
-  margin-left: 10%;
-}
+  .ftbox {
+    margin-left: 10%;
+    margin-left: 10%;
+  }
 }
 
 /*Footer*/
 
+<<<<<<< HEAD
 .btop{
            margin-top: 90%;
            margin-right: 5px;
            position: fixed;
        }
+=======
+/*about us*/
+.sizing {
+  margin-left: 2%;
+  margin-top: 3%;
+}
+.asize {
+  width: 500px;
+}
+>>>>>>> 90b1d28f744ac44058d54ad4e78a92da3c05b66c
