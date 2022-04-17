@@ -15,19 +15,47 @@
            position: fixed;
        }
 
-       @media only screen and (max-width:414px) and (min-width:376px)
+
+.pfbox{
+  margin-left: 10% !important ;
+  margin-right: 10%  !important;
+  align-items: center;
+
+}
+
+.calign{
+  align-self: center !important;
+}
+
+       @media only screen and (max-width:414px) and (min-width:359px)
 {
  .row{
    padding-left: 0px !important;
    padding-right: 0px !important;
  }
- .body{
-   margin: 0%;
- }
+ 
+.teext{
+  margin-top: 15% !important;
+  margin-left: 2% !important;
+  margin-right: 1% !important;
+  align-items: center;
+}
+
+.mfbox{
+  margin-top: 7% !important;
+  margin-left: 3% !important;
+  margin-right: 3% !important;
+}
 
  .col{
    padding-left: 0x;
    padding-right: 0px ;
  }
 
+
+
+.ftbox{
+  margin-left: 10%;
+  margin-left: 10%;
+}
 }
