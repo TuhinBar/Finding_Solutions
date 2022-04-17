@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
 
 /* navbar and dropdown hover menu styling  */
-=======
-/* navbar dropdown hover menu   */
->>>>>>> Stashed changes
 .dropdown:hover .dropdown-menu {
   display: block;
 }
@@ -26,7 +22,6 @@
   margin-left: -5px;
   position: fixed;
 }
-<<<<<<< Updated upstream
        .butto{
            size: 0%;
            margin-top: 10%;
@@ -66,8 +61,6 @@
          
          
        }
-=======
->>>>>>> Stashed changes
 
 .imgg {
   transition: all 0.2s ease;
