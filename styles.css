@@ -1,11 +1,7 @@
 
-/* navbar and dropdown hover menu styling  */
+/* navbar dropdown hover menu   */
 .dropdown:hover .dropdown-menu {
   display: block;
-}
-.nav-link:hover
-{
-   opacity: 60%;
 }
 /* card hover style */
 .card:hover{
