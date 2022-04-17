@@ -18,6 +18,35 @@
            margin-left: -5px;
            position: fixed;
        }
+       .buttto{
+        size: 0%;
+        
+        margin-left: 97%;
+        position: fixed;
+       
+    }
+    .bgimage{
+     
+        background-image: linear-gradient(to top, rgb(221, 112, 112), pink) !important;
+       }
+      
+       .btnn{
+         border-width: 1.5px;
+       }
+    
+
+    .purchase {
+    
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      border-radius: 2% !important;
+      transition: 0.3s;
+    }
+       .btop{
+         
+         margin-left: 100%;
+         
+         
+       }
 
        .imgg{
          transition: all 0.2s ease;
