@@ -19,11 +19,34 @@
            position: fixed;
        }
 
+       .imgg{
+         transition: all 0.2s ease;
+         cursor: pointer;
+       }
+       .imgg:hover{
+         transform: scale(1.2);
+         
+
+       }
+       
+       .t_txt{
+         text-align: center;
+         font-size: larger;
+         
+       }
+
+       .pding{
+        
+          padding: 25px 50px 75px 100px;
+        
+       }
 
 .pfbox{
   margin-left: 10% !important ;
   margin-right: 10%  !important;
-  align-items: center;
+  align-items: center !important;
+  margin-top: 0% !important;
+  padding-top: 0% !important;
 
 }
 
@@ -43,6 +66,8 @@
   margin-left: 2% !important;
   margin-right: 1% !important;
   align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .mfbox{
