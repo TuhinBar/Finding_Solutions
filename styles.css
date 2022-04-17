@@ -25,6 +25,10 @@
         position: fixed;
        
     }
+
+    .purtext{
+      color: rgb(255, 255, 255);
+    }
     .bgimage{
      
         background-image: linear-gradient(to top, rgb(221, 112, 112), pink) !important;
