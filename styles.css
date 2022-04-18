@@ -90,7 +90,7 @@
   align-self: center !important;
 }
 
-@media only screen and (max-width: 395px) and (min-width: 320px) {
+@media only screen and (max-width: 410px) and (min-width: 318px) {
   .row {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -101,8 +101,8 @@
     margin-left: 2% !important;
     margin-right: 1% !important;
     align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
   }
 
   .mfbox {
@@ -117,7 +117,7 @@
   }
 
   .bttn{
-    font-size: 14px;
+    font-size: 14px !important;
   }
 
   .ftbox {
