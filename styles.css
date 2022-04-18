@@ -2,9 +2,8 @@
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-.nav-link:hover
-{
-   opacity: 60%;
+.nav-link:hover {
+  opacity: 60%;
 }
 /* card hover style */
 .card:hover {
@@ -21,45 +20,42 @@
   margin-left: -5px;
   position: fixed;
 }
-       .butto{
-           
-           margin-top: 10%;
-           margin-left: -5px;
-           position: fixed;
-       }
-       .buttto{
-        size: 0%;
-        
-        margin-left: 97%;
-        position: fixed;
-       
-    }
+.butto {
+  margin-top: 10%;
+  margin-left: -5px;
+  position: fixed;
+}
 
-    .purtext{
-      color: rgb(255, 255, 255);
-    }
-    .bgimage{
-     
-        background-image: linear-gradient(to top, rgb(221, 112, 112), pink) !important;
-       }
-      
-       .btnn{
-         border-width: 1.5px;
-       }
-    
+.buttto {
+  size: 0%;
 
-    .purchase {
-    
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      border-radius: 2% !important;
-      transition: 0.3s;
-    }
-       .btop{
-         
-         margin-left: 100%;
-         
-         
-       }
+  margin-left: 97%;
+  position: fixed;
+}
+
+.purtext {
+  color: rgb(255, 255, 255);
+}
+.bgimage {
+  background-image: linear-gradient(
+    to top,
+    rgb(221, 112, 112),
+    pink
+  ) !important;
+}
+
+.btnn {
+  border-width: 1.5px;
+}
+
+.purchase {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2% !important;
+  transition: 0.3s;
+}
+.btop {
+  margin-left: 100%;
+}
 
 .imgg {
   transition: all 0.2s ease;
@@ -90,12 +86,16 @@
   align-self: center !important;
 }
 
-@media only screen and (max-width: 410px) and (min-width: 318px) {
+@media only screen and (max-width: 413px) and (min-width: 318px) {
   .row {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
 
+  .cama{
+    content-visibility: hidden;
+  }
+  
   .teext {
     margin-top: 15% !important;
     margin-left: 2% !important;
@@ -116,7 +116,7 @@
     padding-right: 0px;
   }
 
-  .bttn{
+  .bttn {
     font-size: 14px !important;
   }
 
@@ -124,12 +124,23 @@
     margin-left: 10%;
     margin-left: 10%;
   }
+
+  .to-top{
+    visibility: hidden;
+    }
+    
+    .to-top.active{
+    
+    opacity:0;
+   
+    }
+
 }
 
 /*Footer*/
 
 .to-top{
-background: : white;
+background: white;
 position: fixed;
 bottom:16px;
 right:25px;
@@ -153,6 +164,14 @@ pointer-events:auto;
 opacity:1;
 }
 
+.hlink{
+  opacity: 60%;
+
+}
+.hlink:hover{
+  opacity: 100%;
+}
+
 /*about us*/
 .sizing {
   margin-left: 2%;
@@ -161,3 +180,69 @@ opacity:1;
 .asize {
   width: 500px;
 }
+
+/* RIGHT SIDE BUTTONS */
+
+
+
+.wrapper .button{
+  
+  
+  border: none;
+  position: fixed;
+  margin-right: -1px;
+  right: 0px;
+  width: 35px;
+  height: 30px;
+  border-radius: 0;
+  background-color: rgb(211, 206, 206);
+  display: inline-block;
+  height: 30px;
+  width: 35px;
+  float: right;
+  
+  overflow: hidden;
+  
+  
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 150px;
+  background-color: rgb(129, 127, 127);
+  transform: scale(1.05);
+
+  
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 30px;
+  width: 35spx;
+  text-align: center;
+  margin-right: -5px;
+ 
+ 
+  line-height: 20px;
+  transition: all 0.3s ease-out;
+}
+
+
+.wrapper .button .icon i{
+  margin-right: -5px;
+  font-size: 13px;
+  line-height: 20px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: rgb(71, 42, 42);
+}
+.wrapper .button span{
+  margin-right: -5px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+
