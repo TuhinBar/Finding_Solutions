@@ -5,6 +5,9 @@
 .nav-link:hover {
   opacity: 60%;
 }
+body , html {
+  overflow-x: hidden;
+}
 /* card hover style */
 .card:hover {
   transform: scale(1.07);
@@ -179,14 +182,6 @@
   opacity: 100%;
 }
 
-/*about us*/
-.sizing {
-  margin-left: 2%;
-  margin-top: 3%;
-}
-.asize {
-  width: 500px;
-}
 
 /* RIGHT SIDE BUTTONS */
 
@@ -269,4 +264,32 @@
   .subsmg {
     margin-top: 24px !important;
   }
+}
+
+/*about us*/
+.sizing {
+  margin-left: 2%;
+  margin-top: 3%;
+}
+.provide {
+  width: 100%;
+  height: 60vh;
+  background-image: url(/weprovide.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.explore-content {
+  width: 100%;
+  padding: 60px;
+  color: whitesmoke;
+  text-align: center;
+}
+.explore-content h1 {
+  font-size: 3.5vmin;
+  margin: 5px;
+}
+.explore-content p {
+  font-size: 1cm;
+  color: white;
 }
