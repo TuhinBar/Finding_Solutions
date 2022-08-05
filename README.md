@@ -12,3 +12,9 @@
 
 - First draft
 ![Screenshot (202)](https://user-images.githubusercontent.com/85868593/183099774-db0ce76d-c95c-41c5-a366-c91788c7df92.png)
+
+
+# Collaborators:
+- [Arian](https://github.com/arian0zen)
+- [Souvik](https://github.com/souvik-wizard)
+- [Priyadarshi](https://github.com/PriyoRaven)
