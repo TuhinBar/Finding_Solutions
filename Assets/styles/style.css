@@ -3,13 +3,43 @@ body{
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #E4FBFF;
 }
 /* navbar and dropdown hover menu styling  */
-.dropdown:hover .dropdown-menu {
-  display: block;
+.navbar{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 .nav-link:hover {
   opacity: 60%;
+}
+.carousel{
+  height: 90%;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #9900F0,
+    #5800FF
+  ) !important;
+  /* background-color: #9900F0; */
+}
+.carousel-inner{
+  margin: auto;
+  height: 55%;
+  width: 70%;
+  background-size: cover;
+  background-position: center;
+}
+.carousel_item{
+  position: absolute;
+}
+.bg-color{
+  background-image: linear-gradient(
+    to right,
+    #9900F0,
+    #5800FF
+  ) !important;
 }
 body , html {
   overflow-x: hidden;
@@ -20,8 +50,20 @@ body , html {
   box-shadow: 0 40px 40px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 .card {
+  display: flex;
+  justify-content: center;
   transition: all 0.2s ease;
   cursor: pointer;
+}
+.card-body{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-color{
+  background-color: #B3E8E5;
 }
 .butto {
   size: 0%;
@@ -53,17 +95,19 @@ body , html {
   ) !important;
 }
 .bgimage2 {
+  border-radius: 5px;
   background-image: linear-gradient(
     to top,
-    rgb(138, 238, 7),
-    yellow
+    rgb(7, 187, 133),
+    aqua
   ) !important;
 }
 .bgimage3 {
+  border-radius: 5px;
   background-image: linear-gradient(
     to top,
-    rgb(255, 177, 121),
-    orange
+    rgb(113, 248, 248),
+    rgb(83, 83, 249)
   ) !important;
 }
 
@@ -156,8 +200,11 @@ body , html {
   padding-right: 0px !important;
  }
 
-  .to-top.active {
+  .to-top{
     opacity: 0;
+  }
+  .active{
+    opacity: 1;
   }
   .bgfooter2 {
     background-image: url("../images/bgfoot2.png");
@@ -210,6 +257,7 @@ body , html {
 /* RIGHT SIDE BUTTONS */
 
 .wrapper .button {
+  z-index: 10;
   border: none;
   position: fixed;
   margin-right: -1px;
@@ -221,10 +269,7 @@ body , html {
   display: inline-block;
   height: 30px;
   width: 35px;
-  float: right;
-
   overflow: hidden;
-
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-out;
