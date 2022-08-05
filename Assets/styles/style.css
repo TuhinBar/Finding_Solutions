@@ -1,3 +1,9 @@
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 /* navbar and dropdown hover menu styling  */
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -41,6 +47,20 @@
     to top,
     rgb(221, 112, 112),
     pink
+  ) !important;
+}
+.bgimage2 {
+  background-image: linear-gradient(
+    to top,
+    rgb(138, 238, 7),
+    yellow
+  ) !important;
+}
+.bgimage3 {
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 177, 121),
+    orange
   ) !important;
 }
 
@@ -128,12 +148,16 @@
   .to-top {
     visibility: hidden;
   }
+ div.col-md-4{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+ }
 
   .to-top.active {
     opacity: 0;
   }
   .bgfooter2 {
-    background-image: url("bgfoot2.png");
+    background-image: url("../images/bgfoot2.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -142,7 +166,7 @@
 
 /*Footer*/
 .bgfooter2 {
-  background-image: url("bgfoot2.png");
+  background-image: url("../images/bgfoot2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
