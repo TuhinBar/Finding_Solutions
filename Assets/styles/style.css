@@ -298,7 +298,7 @@ body , html {
 .provide {
   width: 100%;
   height: 60vh;
-  background-image: url(/weprovide.png);
+  background-image: url(../images/weprovide.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
