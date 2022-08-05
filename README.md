@@ -1,2 +1,5 @@
-# sample_bootstrap_website
-first project for front end web page using bootstrap
+# FiNDiNG Solutions : A sample cosultancy service's landing page
+
+
+
+-Preview
