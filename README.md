@@ -4,6 +4,10 @@
 - About:
   It is a landing page (Front end only) for a sample organization. It is made of Bootstrap 5, HTML, CSS along with few lines of javaScript.
   - [Click here to visit!](https://tuhinbar.github.io/Finding_Solutions/)
-- Preview
-- ![image](https://user-images.githubusercontent.com/85868593/183098802-7ea9b794-51f7-4dc4-98a6-43a923c1c1bd.png)
+- Previews
+- Home
+ ![image](https://user-images.githubusercontent.com/85868593/183098802-7ea9b794-51f7-4dc4-98a6-43a923c1c1bd.png)
+- Features
+ ![image](https://user-images.githubusercontent.com/85868593/183099385-fe46cf3f-3621-4b8a-8725-5a4a15a6924d.png)
+
 
