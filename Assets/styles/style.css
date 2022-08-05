@@ -5,6 +5,36 @@ body{
   padding: 0;
   background-color: #E4FBFF;
 }
+h1{
+  cursor: pointer;
+}
+h1:after,
+h1:before {
+  /* line-height: 20px; */
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 10%;
+  border-color: #9900F0;
+  transition: width 350ms ease-in-out;
+  width: 20%;
+}
+
+h1:hover:before {
+  border-color: #9900F0;
+  transition: width 350ms ease-in-out;
+  width: 100%;
+}
+h1:hover:after {
+  border-color: #5800FF;
+  transition: width 450ms ease-in-out;
+  width: 100%;
+}
+
 /* navbar and dropdown hover menu styling  */
 .navbar{
   position: fixed;
@@ -17,12 +47,7 @@ body{
 .carousel{
   height: 90%;
   width: 100%;
-  background-image: linear-gradient(
-    to right,
-    #9900F0,
-    #5800FF
-  ) !important;
-  /* background-color: #9900F0; */
+  background-color: #e4f0f4;
 }
 .carousel-inner{
   margin: auto;
@@ -35,14 +60,18 @@ body{
   position: absolute;
 }
 .bg-color{
-  background-image: linear-gradient(
-    to right,
-    #9900F0,
-    #5800FF
-  ) !important;
+  background-color: #e4f0f4 !important;
+  color: black;
 }
 body , html {
   overflow-x: hidden;
+}
+/* Features */
+.features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 /* card hover style */
 .card:hover {
@@ -72,7 +101,7 @@ body , html {
   position: fixed;
 }
 .butto {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: -5px;
   position: fixed;
 }
@@ -164,12 +193,8 @@ body , html {
   }
 
   .teext {
-    margin-top: 15% !important;
-    margin-left: 2% !important;
-    margin-right: 1% !important;
-    align-items: center;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
+    padding: 30px;
+    text-align: center;
   }
 
   .mfbox {
@@ -199,10 +224,6 @@ body , html {
   padding-left: 0px !important;
   padding-right: 0px !important;
  }
-
-  .to-top{
-    opacity: 0;
-  }
   .active{
     opacity: 1;
   }
@@ -211,6 +232,26 @@ body , html {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+  }
+  .carousel{
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(
+      to right,
+      #9900F0,
+      #5800FF
+    ) !important;
+    /* background-color: #9900F0; */
+  }
+  .carousel-inner{
+    margin: auto;
+    height: 100%;
+    width: 95%;
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel_item{
+    position: absolute;
   }
 }
 
@@ -308,9 +349,9 @@ body , html {
   transition: all 0.3s ease-out;
 }
 .mv {
-  padding-right: 85px !important;
+  padding-right: 50px !important;
   align-items: center !important;
-  padding-left: 85px;
+  padding-left: 40px;
 }
 .subsmg {
   margin-top: 225px !important;
@@ -332,6 +373,26 @@ body , html {
   }
   .subsmg {
     margin-top: 24px !important;
+  }
+  .carousel{
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(
+      to right,
+      #9900F0,
+      #5800FF
+    ) !important;
+    /* background-color: #9900F0; */
+  }
+  .carousel-inner{
+    margin: auto;
+    height: 100%;
+    width: 95%;
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel_item{
+    position: absolute;
   }
 }
 
